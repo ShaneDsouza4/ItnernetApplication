@@ -174,3 +174,28 @@ button:hover{
     color: #4b0082;
     border: 1px solid #4b0082;
 }
+
+/* Classes page styling */
+
+table.yoga-classes td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+table.yoga-classes b {
+    display: block;
+    margin-bottom: 10px;
+}
+
+table.yoga-classes p {
+    margin: 0;
+}
+
+.audio {
+    margin-bottom: 1rem;
+}
+
+.yogamat {
+    width: 100%;
+    display: block;
+}
