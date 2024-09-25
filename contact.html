@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Studio: Path of Light</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="maintitle">
+        <h1>Path of Light Yoga Studio</h1>
+    </section>
+    <!-- This is for the lower content of the page -->
+    <section class="outer-content">
+        <div class="content-box">
+            <h2>Contact Path of Light Yoga Studio</h2>
+            <p>Required fields are maked with an asterik *</p>
+            <form action="https://comp8347/sendnowhandle.py" method="POST">
+                <div class="form-group">
+                    <label for="name">* Name: </label>
+                    <input id="name" name="name" type="text" required minlength="3" maxlength="20">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">* Email: </label>
+                    <input id="email" name="email" type="email" required minlength="3" maxlength="20">
+                </div>
+
+                <div class="form-group">
+                    <label for="referedBy">Reffered by? </label>
+                    <input id="referedBy" name="referedBy" type="text" minlength="3" maxlength="20">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="comments">* Comments: </label>
+                    <textarea id="comments" name="comments" required minlength="0" maxlength="250"></textarea>
+                </div>
+
+                <button type="submit">Send Now</button>
+
+            </form>
+            <div class="footer-section">
+                <p><i>Copyright © 2024 Path of Light Yoga Studio</i><br>
+                    <i><a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a></i>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
