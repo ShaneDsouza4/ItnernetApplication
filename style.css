@@ -55,18 +55,7 @@ nav ul li a:hover {
     padding: 10px 20px;
 }
 
-.outer-content {
-    display: flex;
-    justify-content: center;
-    background-color: #f0f0f5;
-    padding: 0 50px; 
-}
 
-.outer-content::before, .outer-content::after {
-    content: '';
-    background-color: #4b0082; 
-    width: 100px;
-}
 
 .outer-content {
     background-color: #4b0082; 
@@ -77,11 +66,12 @@ nav ul li a:hover {
 .content-box {
     background-color: white;
     padding: 30px;
-    width: 80%;
-    max-width: 800px;
+    max-width: 75%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
     color: #4b0082; 
+    line-height: 1.2;
+
 }
 
 .content-box h2 {
@@ -92,18 +82,14 @@ nav ul li a:hover {
 
 .content-box p {
     margin-bottom: 20px;
-    line-height: 1.5;
 }
 
 .content-box ul {
     list-style-type: disc;
     padding-left: 20px;
-    margin-bottom: 20px;
 }
 
-.content-box ul li {
-    margin-bottom: 10px;
-}
+
 
 address {
     margin-top: 30px;
@@ -120,10 +106,6 @@ address {
     font-style: italic;
 }
 
-.footer-section a {
-    color: #4b0082;
-    text-decoration: none;
-}
 
 .footer-section a:hover {
     text-decoration: underline;
@@ -195,7 +177,38 @@ table.yoga-classes p {
     margin-bottom: 1rem;
 }
 
-.yogamat {
+.yogamat, #yogalounge {
     width: 100%;
     display: block;
 }
+#yogalounge{
+    padding-top: 5%;
+}
+.yoga-schedule {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  .yoga-schedule td, .yoga-schedule th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .yoga-schedule tr:nth-child(even){background-color: #baddeb;}
+  
+  
+  .yoga-schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #4b0082;
+  }
+  #schedule-one{
+    float: left;
+    text-align: center;
+margin-right: 20%;
+  }
+  #schedule-two{
+display: inline-block;
+    text-align: center;
+
+  }
